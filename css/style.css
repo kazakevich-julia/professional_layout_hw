@@ -5,7 +5,6 @@ body {
 .wrap {
     width: 1140px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 /*header*/
 .header {
