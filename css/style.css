@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -105,29 +109,14 @@ body {
     line-height: 29px;
     color: #F16D7F;
 }
-.footer {
-    background: #222224;
-}
-.footer_wrap {
+/*catalog*/
+.catalog_info {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-}
-.text_copyright {
-    font-family: Lato;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FBFBFB;
-    display: inline-block;
-    margin-top: 36px;
-}
-.social {
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-.social_icons {
-    background: #FFFFFF;
-    padding: 8px;
+    margin-top: 100px;
+    margin-bottom: 54px;
 }
 .heading_catalog {
     font-family: Lato;
@@ -149,6 +138,7 @@ body {
 .card {
     width: 360px;
     background: #F8F8F8;
+    margin-bottom: 30px;
 }
 .heading_card {
     font-family: Lato;
@@ -169,7 +159,7 @@ body {
     line-height: 19px;
     color: #F16D7F;
 }
-.catalog_button {
+.catalog_link {
     font-family: Lato;
     font-size: 16px;
     line-height: 19px;
@@ -178,6 +168,159 @@ body {
     padding: 15px 40px;
     text-decoration: none;
     display: inline-block;
-    margin-top: 48px;
-    margin-bottom: 96px;
+    justify-content: center;
+    align-self: center;
+    margin: 20px 0;
 }
+.button {
+    text-align: center;
+    margin-bottom: 100px;
+}
+/*adventage*/
+.adventage {
+    background-color: 
+    #222224;
+}
+.adventage_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.adventage_item {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 103px;
+    margin-bottom: 103px;
+}
+.adventage_img {
+    align-self: center;
+}
+.adventage_type {
+    text-align: center;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-top: 25px;
+}
+.adventage_text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
+    padding-top: 16px;
+}
+/*feedback*/
+.feedback {
+    background-image: url("../img/feedback_bcg.jpg");
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feedback_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.feedback_photo {
+    padding-top: 100px;
+}
+.feedback_text {
+    font-size: 20px;
+    line-height: 24px;
+    color: #222224;
+    text-align: center;
+    padding-top: 30px;
+}
+.feedback_text_italic {
+    font-style: italic;
+}
+.subscribe_heading {
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+.subscribe_heading_big {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #222224;
+}
+.subscribe_heading_small {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.1px;
+    text-align: center;
+    color: #222224;
+}
+.subscribe {
+    display: flex;
+}
+.subscribe_field {
+    padding: 20px;
+    background-color: #E1E1E1;
+    border: none;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+..subscribe_field::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222224;
+    opacity: 0.67;
+}
+.subscribe_button {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: #F16D7F;
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+/*footer*/
+.footer {
+    background: #222224;
+}
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.text_copyright {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+    display: inline-block;
+}
+.social {
+    display: flex;
+    gap: 8px;
+}
+.social_link {
+    color: #222;
+    background-color: #fff;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
