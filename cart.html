@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body class="page">
     <header class="header">
         <div class="wrap header_wrap">
             <div class="icons_left">
@@ -60,78 +60,84 @@
             </div>
         </nav>
     </header>
-    <section class="catalog_page_info">
-        <div class="wrap catalog_page_info_wrap registration-and-cart-title">
-            <h1 class="catalog_page_info_heading registration-and-cart-heading">SHOPPING CART</h1>
-        </div>
-    </section>
-    <section class="cart-product">
-        <div class="wrap cart-product-wrap">
-            <div class="cart-product-info">
-                <div class="cart-product-card">
-                    <button class="cart-product-card-close-button"><img src="img/cart-close.svg" alt="close"></button>
-                    <img width="262" height="306" src="img/cart-photo1.png" alt="photo of product">
-                    <div class="cart-product-data">
-                        <h3 class="cart-product-title">
-                            MANGO PEOPLE <br>
-                            T-SHIRT
-                        </h3>
-                        <ul class="cart-product-list">
-                            <li class="cart-product-text">Price:<span class="cart-product-text-pink">$300</span>
-                            </li>
-                            <li class="cart-product-text">Color: Red</li>
-                            <li class="cart-product-text">Size: Xl</li>
-                            <li class="cart-product-text">Quantity:
-                                <input class="cart-qty" type="number" min="1" max="10" step="1" value="1">
-                            </li>
-                        </ul>
+    <div class="main">
+        <section class="catalog_page_info">
+            <div class="wrap catalog_page_info_wrap registration-and-cart-title">
+                <h1 class="catalog_page_info_heading registration-and-cart-heading">SHOPPING CART</h1>
+            </div>
+        </section>
+        <section class="cart-product">
+            <div class="wrap cart-product-wrap">
+                <div class="cart-product-info">
+                    <div class="cart-product-card">
+                        <button class="cart-product-card-close-button"><img src="img/cart-close.svg"
+                                alt="close"></button>
+                        <img class="cart-product-img" width="262" height="306" src="img/cart-photo1.png"
+                            alt="photo of product">
+                        <div class="cart-product-data">
+                            <h3 class="cart-product-title">
+                                MANGO PEOPLE <br>
+                                T-SHIRT
+                            </h3>
+                            <ul class="cart-product-list">
+                                <li class="cart-product-text">Price:<span class="cart-product-text-pink">$300</span>
+                                </li>
+                                <li class="cart-product-text">Color: Red</li>
+                                <li class="cart-product-text">Size: Xl</li>
+                                <li class="cart-product-text">Quantity:
+                                    <input class="cart-qty" type="number" min="1" max="10" step="1" value="1">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cart-product-card">
+                        <button class="cart-product-card-close-button"><img src="img/cart-close.svg"
+                                alt="close"></button>
+                        <img class="cart-product-img" width="262" height="306" src="img/cart-photo2.png"
+                            alt="photo of product">
+                        <div class="cart-product-data">
+                            <h3 class="cart-product-title">
+                                MANGO PEOPLE <br>
+                                T-SHIRT
+                            </h3>
+                            <ul class="cart-product-list">
+                                <li class="cart-product-text">Price:<span class="cart-product-text-pink">$300</span>
+                                </li>
+                                <li class="cart-product-text">Color: Red</li>
+                                <li class="cart-product-text">Size: Xl</li>
+                                <li class="cart-product-text">Quantity:
+                                    <input class="cart-qty" type="number" min="1" max="10" step="1" value="1">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cart-button-wrap">
+                        <button class="cart-button cart-button-margin">CLEAR SHOPPING CART</button>
+                        <button class="cart-button">CONTINUE SHOPPING</button>
                     </div>
                 </div>
-                <div class="cart-product-card">
-                    <button class="cart-product-card-close-button"><img src="img/cart-close.svg" alt="close"></button>
-                    <img width="262" height="306" src="img/cart-photo2.png" alt="photo of product">
-                    <div class="cart-product-data">
-                        <h3 class="cart-product-title">
-                            MANGO PEOPLE <br>
-                            T-SHIRT
+                <div class="cart-quote-proceed">
+                    <form class="cart-quote" action="#">
+                        <h3 class="cart-quote-title">
+                            SHIPPING ADRESS
                         </h3>
-                        <ul class="cart-product-list">
-                            <li class="cart-product-text">Price:<span class="cart-product-text-pink">$300</span>
-                            </li>
-                            <li class="cart-product-text">Color: Red</li>
-                            <li class="cart-product-text">Size: Xl</li>
-                            <li class="cart-product-text">Quantity:
-                                <input class="cart-qty" type="number" min="1" max="10" step="1" value="1">
-                            </li>
-                        </ul>
+                        <input class="cart-quote-field" type="text" placeholder="Bangladesh" required>
+                        <input class="cart-quote-field" type="text" placeholder="State" required>
+                        <input class="cart-quote-field" type="text" placeholder="Postcode / Zip" required>
+                        <input class="cart-quote-button" type="submit" value="GET A QUOTE">
+                    </form>
+                    <div class="cart-proceed">
+                        <p class="cart-proceed-text"> <span class="cart-proceed-text-small">SUB TOTAL </span>
+                            <span class="cart-proceed-text-small text-padding">$900</span><br>
+                            <span class="cart-proceed-text-big">GRAND TOTAL</span>
+                            <span class="cart-proceed-text-big cart-proceed-text-pink text-padding">$900</span>
+                        </p>
+                        <button class="cart-proceed-btn">PROCEED TO CHECKOUT</button>
                     </div>
                 </div>
-                <div class="cart-button-wrap">
-                    <button class="cart-button cart-button-margin">CLEAR SHOPPING CART</button>
-                    <button class="cart-button">CONTINUE SHOPPING</button>
-                </div>
             </div>
-            <div class="cart-quote-proceed">
-                <form class="cart-quote" action="#">
-                    <h3 class="cart-quote-title">
-                        SHIPPING ADRESS
-                    </h3>
-                    <input class="cart-quote-field" type="text" placeholder="Bangladesh" required>
-                    <input class="cart-quote-field" type="text" placeholder="State" required>
-                    <input class="cart-quote-field" type="text" placeholder="Postcode / Zip" required>
-                    <input class="cart-quote-button" type="submit" value="GET A QUOTE">
-                </form>
-                <div class="cart-proceed">
-                    <p class="cart-proceed-text"> <span class="cart-proceed-text-small">SUB TOTAL </span>
-                        <span class="cart-proceed-text-small text-padding">$900</span><br>
-                        <span class="cart-proceed-text-big">GRAND TOTAL</span>
-                        <span class="cart-proceed-text-big cart-proceed-text-pink text-padding">$900</span>
-                    </p>
-                    <button class="cart-proceed-btn">PROCEED TO CHECKOUT</button>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <section class="feedback feedback-margin">
         <div class="wrap">
             <div class="feedback_wrap">
