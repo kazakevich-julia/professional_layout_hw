@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4e17c098a7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrap header_wrap">
+            <div class="icons_left">
+                <a class="logo_icon" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                <button><img src="img/search_icon.svg" alt="search"></button>
+            </div>
+            <div class="icons_right">
+                <button><img src="img/menu_icon.svg" alt="menu"></button>
+                <a class="profile_icon" href="registration.html"><img src="img/profile_icon.svg" alt="profile"></a>
+                <a class="cart_icon" href="cart.html"><img src="img/cart.svg" alt="cart"></a>
+            </div>
+        </div>
+        <nav class="main-nav main-nav-close">
+            <!--main-nav-open / main-nav-close-->
+            <div class="main-nav-wrap">
+                <button class="main-nav-close-button"><img src="img/burger_close.svg" alt="close"></button>
+                <p class="main-nav-title">MENU</p>
+                <p class="main-nav-subtitle">MAN</p>
+                <ul class="main-nav-list">
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Accessories</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Bags</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Denim</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">T-Shirts</a></li>
+                </ul>
+                <p class="main-nav-subtitle">WOMAN</p>
+                <ul class="main-nav-list">
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Accessories</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Jackets & Coats</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Polos</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">T-Shirts</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Shirts</a></li>
+                </ul>
+                <p class="main-nav-subtitle">KIDS</p>
+                <ul class="main-nav-list">
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Accessories</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Jackets & Coats</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Polos</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">T-Shirts</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Shirts</a></li>
+                    <li class="main-nav-item"><a href="catalog.html" class="main-nav-link">Bags</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="catalog_page_info">
+        <div class="wrap catalog_page_info_wrap registration-and-cart-title">
+            <h1 class="catalog_page_info_heading registration-and-cart-heading">REGISTRATION</h1>
+        </div>
+    </section>
+    <section class="registration">
+        <div class="wrap registration-wrap">
+            <form class="registration-form" action="#">
+                <h3 class="registration-form-title">Your Name</h3>
+                <input class="registration-form-field" type="text" placeholder="First Name" minlength="2" maxlength="20"
+                    required>
+                <input class="registration-form-field" type="text" placeholder="Last Name" minlength="2" maxlength="20"
+                    required>
+                <div class="gender-box">
+                    <input class="gender-radio" type="radio" id="gender-m" name="gender" value="Male" checked>
+                    <label class="gender-label" for="gender-m">Male</label>
+                    <input class="gender-radio" type="radio" id="gender-f" name="gender" value="Female">
+                    <label class="gender-label" for="gender-f">Female</label>
+                </div>
+                <h3 class="registration-form-title">Login details</h3>
+                <input class="registration-form-field" type="email" placeholder="Email" required>
+                <input class="registration-form-field" type="password" placeholder="Password" minlength="7"
+                    maxlength="12" required>
+                <p class="registration-form-text">Please use 8 or more characters, with at least 1 number and a mixture
+                    of
+                    uppercase and lowercase letters</p>
+                <button class="registration-form-btn"><span class="registration-form-btn-padding">JOIN NOW</span>
+                    <svg class="registration-form-btn-arrow" width="17" height="10" viewBox="0 0 17 10"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M11.54 0.208095C11.6058 0.142131 11.684 0.0897967 11.77 0.0540883C11.8561 0.01838 11.9483 0 12.0415 0C12.1347 0 12.2269 0.01838 12.313 0.0540883C12.399 0.0897967 12.4772 0.142131 12.543 0.208095L16.7929 4.458C16.8589 4.5238 16.9112 4.60196 16.9469 4.68802C16.9826 4.77407 17.001 4.86632 17.001 4.95949C17.001 5.05266 16.9826 5.14491 16.9469 5.23097C16.9112 5.31702 16.8589 5.39518 16.7929 5.46098L12.543 9.71089C12.41 9.84389 12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.84389 11.54 9.71089C11.407 9.57788 11.3323 9.39749 11.3323 9.2094C11.3323 9.0213 11.407 8.84091 11.54 8.70791L15.2898 4.95949L11.54 1.21107C11.474 1.14528 11.4217 1.06711 11.386 0.981059C11.3503 0.895005 11.3319 0.802752 11.3319 0.709584C11.3319 0.616415 11.3503 0.524162 11.386 0.438109C11.4217 0.352055 11.474 0.273891 11.54 0.208095Z"
+                            fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 4.95948C0 4.77162 0.0746263 4.59146 0.207462 4.45862C0.340297 4.32579 0.52046 4.25116 0.708318 4.25116H15.583C15.7708 4.25116 15.951 4.32579 16.0838 4.45862C16.2167 4.59146 16.2913 4.77162 16.2913 4.95948C16.2913 5.14734 16.2167 5.3275 16.0838 5.46033C15.951 5.59317 15.7708 5.6678 15.583 5.6678H0.708318C0.52046 5.6678 0.340297 5.59317 0.207462 5.46033C0.0746263 5.3275 0 5.14734 0 4.95948Z" />
+                    </svg>
+                </button>
+            </form>
+            <div class="registration-perks">
+                <h3 class="registration-perks-title">LOYALTY HAS ITS PERKS</h3>
+                <p class="registration-perks-text">Get in on the loyalty program where you can earn points and unlock
+                    serious
+                    perks. Starting with these as soon as you join:</p>
+                <ul class="registration-perks-list">
+                    <li class="registration-perks-item">15% off welcome offer</li>
+                    <li class="registration-perks-item">Free shipping, returns and exchanges on all orders</li>
+                    <li class="registration-perks-item">$10 off a purchase on your birthday</li>
+                    <li class="registration-perks-item">Early access to products</li>
+                    <li class="registration-perks-item">Exclusive offers & rewards</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="feedback feedback-margin">
+        <div class="wrap">
+            <div class="feedback_wrap">
+                <div class="feedback_item_left">
+                    <img class="feedback_photo" src="img/feedback_photo.png" alt="photo">
+                    <p class="feedback_text">“Vestibulum quis porttitor dui! Quisque <br>
+                        viverra nunc mi, <span class="feedback_text_italic"> a pulvinar </span><br>
+                        purus condimentum“
+                    </p>
+                </div>
+                <div class="feedback_item_subscribe">
+                    <h3 class="subscribe_heading"><span class="subscribe_heading_big">SUBSCRIBE</span><br>
+                        <span class="subscribe_heading_small">FOR OUR NEWLETTER AND PROMOTION</span>
+                    </h3>
+                    <form action="#" class="subscribe">
+                        <input class="subscribe_field" type="email" minlength="3" placeholder="Enter Your Email"
+                            required>
+                        <input class="subscribe_button" type="submit" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="wrap">
+            <div class="footer_wrap">
+                <div class="copyright">
+                    <p class="text_copyright">&copy;2021 Brand All Rights Reserved.</p>
+                </div>
+                <div class="social">
+                    <a href="#" class="social_link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social_link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social_link">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a href="#" class="social_link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
